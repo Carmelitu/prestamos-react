@@ -1,10 +1,14 @@
-import React from 'react';
+import React, {Fragment} from 'react';
+import Header from './Comps/Header';
 
 function App() {
   return (
-    <div className="App">
-      <h1>Hola Mundo</h1>
-    </div>
+    <Fragment>
+      <Header 
+        titulo="Cotizador de Préstamos"
+        descripcion="Utiliza el formulario y obten una cotización"
+      />
+    </Fragment>
   );
 }
 
