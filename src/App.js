@@ -1,8 +1,12 @@
-import React, {Fragment} from 'react';
+import React, {Fragment, useState} from 'react';
 import Header from './Comps/Header';
 import Formulario from './Comps/Formulario';
 
 function App() {
+
+  // Definir el state
+  const [cantidad, guardarCantidad] = useState(0);
+
   return (
     <Fragment>
       <Header 
@@ -10,7 +14,10 @@ function App() {
       />
 
       <div className="container">
-        <Formulario />
+        <Formulario 
+          cantidad = {cantidad}
+          guardarCantidad = {guardarCantidad}
+        />
       </div>
     </Fragment>
   );
