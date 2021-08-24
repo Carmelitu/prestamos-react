@@ -6,7 +6,7 @@ Check it out here: https://prestamos-react-carmelitu.netlify.app/
 
 Project made for a JavaScript course on Udemy.
 
-This program is an loan price calculator. What it does is validate that all the fields have data, otherwise it returns an error. When it verifies that everything is OK, it shows a loading image and after 3 seconds it returns the price and the information of what was sent.
+This app is an loan price calculator. What it does is validate that all the fields have data, otherwise it returns an error. When it verifies that everything is OK, it shows a loading image and after 3 seconds it returns the price and the information of what was sent.
 
 ## Home
 
